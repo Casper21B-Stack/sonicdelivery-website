@@ -11,9 +11,7 @@ Under active development with new features, updates, and seasonal events.
 - Track your progress with `/inventory`, `/leaderboard`, and `/achievements`  
 - Spend rings in the `/shop` and `/buy` system  
 
-![Sonic chili dog](https://cdn.discordapp.com/attachments/1482017994422095976/1493229430737211592/IMG_6794.webp?ex=69de35c7&is=69dce447&hm=a39f9631970b013f698acc34dd777567f6d8dad8910072be2112604a29f3a055)
-
-![Sonic pixel](https://cdn.discordapp.com/attachments/1482017994422095976/1493253858326220893/IMG_6493.gif?ex=69de4c87&is=69dcfb07&hm=ba32f288b4c8d2f48e698502e5593dbf48430b9bdf5d5ba1d10f91157cb2be4d&)
+![Sonic eating chili dogs](https://cdn.discordapp.com/attachments/1482017994422095976/1493219539884834987/IMG_6715.png?ex=69de2c90&is=69dcdb10&hm=51d8819841687dae593d7688cf18956fe9f79e282893164dfff3a362a5855543)
 
 Invite your server with the bot page:  
 👉 https://sonicdelivery-website.onrender.com
