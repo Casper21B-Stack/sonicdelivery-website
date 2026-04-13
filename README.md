@@ -21,3 +21,7 @@ Support server:
 
 Want to help test features or suggest ideas?  
 Join the dev channel or submit feedback via the bot’s `/invite` command.
+
+## About me
+Full info: [ABOUT.md](https://github.com/Casper21B-Stack/sonicdelivery-website/blob/main/ABOUT.md)
+
