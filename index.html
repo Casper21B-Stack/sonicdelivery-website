@@ -7,46 +7,59 @@
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #0a0a0a;
+      background: #000022; /* Sonic‑themed blue background */
       color: #e0e0e0;
-      padding: 20px;
+      padding: 20px 0;
       margin: 0;
+      text-align: center;
     }
 
     .container {
       max-width: 600px;
-      margin: 0 auto;
-      text-align: center;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(0, 0, 33, 0.7);
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 102, 204, 0.4);
+    }
+
+    .logo {
+      max-width: 220px;
+      margin-bottom: 16px;
+      border-radius: 12px;
+      border: 3px solid #0099ff;
     }
 
     h1 {
       color: #0099ff;
       margin-bottom: 12px;
+      font-size: 24px;
     }
 
     p {
       font-size: 16px;
       line-height: 1.6;
       margin-bottom: 24px;
+      color: #b8e8fc;
     }
 
     a.button {
       display: inline-block;
       color: white;
-      background: linear-gradient(90deg, #0066cc, #0099ff);
+      background: linear-gradient(90deg, #ff6b00, #ff9e00); /* Sonic‑orange gradient */
       padding: 14px 28px;
       font-size: 18px;
       font-weight: 600;
       border-radius: 12px;
       border: none;
       text-decoration: none;
-      box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+      box-shadow: 0 4px 12px rgba(255, 107, 0, 0.4);
       transition: transform 0.1s, box-shadow 0.2s;
     }
 
     a.button:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(0, 102, 204, 0.4);
+      box-shadow: 0 6px 16px rgba(255, 107, 0, 0.5);
     }
 
     @media (max-width: 480px) {
@@ -65,10 +78,15 @@
 </head>
 <body>
   <div class="container">
+    <img src="https://cdn.discordapp.com/attachments/1482017994422095976/1482022795322851398/IMG_5019.png?ex=69dda689&is=69dc5509&hm=3b4b8abfea93e26c2988a07b31b11238aaffe3aa6016656ef022bb026da5dfe7" alt="Sonic Speed Cafe Menu" class="logo" />
+
     <h1>SonicDelivery — Sonic‑themed Discord bot</h1>
     <p>
       A Sonic‑themed Discord bot with food commands, Sonic Dash mini‑game, rings, XP, inventory, achievements, and a ring shop. Under active development with new features and updates.
     </p>
+
+    <img src="https://cdn.discordapp.com/attachments/1482017994422095976/1493219539884834987/IMG_6715.png?ex=69de2c90&is=69dcdb10&hm=51d8819841687dae593d7688cf18956fe9f79e282893164dfff3a362a5855543" alt="Sonic eating chili dogs" class="logo" />
+
     <a href="https://discord.com/oauth2/authorize?client_id=1438980765189804083&permissions=92160&integration_type=0&scope=bot+applications.commands" class="button">
       Invite SonicDelivery to your server
     </a>
