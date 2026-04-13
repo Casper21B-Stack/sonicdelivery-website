@@ -11,11 +11,10 @@
       color: #e0e0e0;
       padding: 20px 0;
       margin: 0;
-      text-align: center;
     }
 
     .container {
-      max-width: 600px;
+      max-width: 720px;
       margin: 40px auto;
       padding: 20px;
       background: rgba(0, 0, 33, 0.7);
@@ -23,27 +22,40 @@
       box-shadow: 0 8px 32px rgba(0, 102, 204, 0.4);
     }
 
-    .logo {
-      max-width: 220px;
-      margin-bottom: 16px;
+    .content-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 16px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .img-side {
+      max-width: 160px;
       border-radius: 12px;
       border: 3px solid #0099ff;
     }
 
+    .text-box {
+      flex: 1;
+      min-width: 280px;
+    }
+
     h1 {
       color: #0099ff;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       font-size: 24px;
     }
 
     p {
       font-size: 16px;
       line-height: 1.6;
-      margin-bottom: 24px;
       color: #b8e8fc;
+      margin: 0;
     }
 
-       a.button {
+    a.button {
       display: inline-block;
       color: white;
       background: linear-gradient(90deg, #0066cc, #0099ff); /* Sonic‑blue gradient */
@@ -63,12 +75,19 @@
     }
 
     @media (max-width: 480px) {
+      .content-row {
+        flex-direction: column;
+        text-align: center;
+      }
+
       h1 {
         font-size: 20px;
       }
+
       p {
         font-size: 15px;
       }
+
       a.button {
         padding: 12px 24px;
         font-size: 16px;
@@ -78,14 +97,20 @@
 </head>
 <body>
   <div class="container">
-    <img src="https://cdn.discordapp.com/attachments/1482017994422095976/1482022795322851398/IMG_5019.png?ex=69dda689&is=69dc5509&hm=3b4b8abfea93e26c2988a07b31b11238aaffe3aa6016656ef022bb026da5dfe7" alt="Sonic Speed Cafe Menu" class="logo" />
 
-    <h1>SonicDelivery — Sonic‑themed Discord bot</h1>
-    <p>
-      A Sonic‑themed Discord bot with food commands, Sonic Dash mini‑game, rings, XP, inventory, achievements, and a ring shop. Under active development with new features and updates.
-    </p>
+    <!-- Sonic chili dogs on the left, blue hearts on the right -->
+    <div class="content-row">
+      <img src="https://cdn.discordapp.com/attachments/1482017994422095976/1493229430737211592/IMG_6794.webp?ex=69de35c7&is=69dce447&hm=a39f9631970b013f698acc34dd777567f6d8dad8910072be2112604a29f3a055" alt="Sonic chili dogs" class="img-side" />
 
-    <img src="https://cdn.discordapp.com/attachments/1482017994422095976/1493219539884834987/IMG_6715.png?ex=69de2c90&is=69dcdb10&hm=51d8819841687dae593d7688cf18956fe9f79e282893164dfff3a362a5855543" alt="Sonic eating chili dogs" class="logo" />
+      <div class="text-box">
+        <h1>SonicDelivery — Sonic‑themed Discord bot</h1>
+        <p>
+          A Sonic‑themed Discord bot with food commands, Sonic Dash mini‑game, rings, XP, inventory, achievements, and a ring shop. Under active development with new features and updates.
+        </p>
+      </div>
+
+      <img src="https://cdn.discordapp.com/attachments/1482017994422095976/1493229862733877410/IMG_6334.png?ex=69de362e&is=69dce4ae&hm=188bc7ed16f8018b6226ebd3fa0f914994b52b9d4260d9713ad41fecdb20a3af" alt="Blue hearts" class="img-side" />
+    </div>
 
     <a href="https://discord.com/oauth2/authorize?client_id=1438980765189804083&permissions=92160&integration_type=0&scope=bot+applications.commands" class="button">
       Invite SonicDelivery to your server
