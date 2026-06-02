@@ -1,6 +1,6 @@
 # SonicDelivery — Sonic‑themed Discord bot
 
-![SonicDelivery Bot](https://cdn.discordapp.com/attachments/1482017994422095976/1504123604915454033/IMG_5019.png?ex=6a05d7c4&is=6a048644&hm=58245e5a3b35f3d1943ecc4227ce62a700e16d82ab79baabf9b9b5e3d66dee88&)
+![SonicDelivery Bot](https://cdn.discordapp.com/attachments/1482017994422095976/1504123604915454033/IMG_5019.png?ex=6a2035c4&is=6a1ee444&hm=0d5e0e39bbfcc728e4e557f8dfd6b6f9f653b9c8ab7c1e01fda16b39c937dfb6&)
 
 **A Sonic‑themed Discord bot** with food commands, a **Sonic Dash mini‑game**, rings, XP, inventory, achievements, and a ring shop.  
 Under active development with new features, updates, and seasonal events.
@@ -11,7 +11,7 @@ Under active development with new features, updates, and seasonal events.
 - Track your progress with `/inventory`, `/leaderboard`, and `/achievements`  
 - Spend rings in the `/shop` and `/buy` system  
 
-![Sonic eating chili dogs](https://cdn.discordapp.com/attachments/1482017994422095976/1504123615543820438/IMG_6715.png?ex=6a05d7c7&is=6a048647&hm=920bda49665f36cf5066bc2071b1d09d9d49a27ec771e8b303bf7f08b51022a5&)
+![Sonic eating chili dogs](https://cdn.discordapp.com/attachments/1482017994422095976/1504123615543820438/IMG_6715.png?ex=6a2035c7&is=6a1ee447&hm=fa84b8fa9851f6e6f2cfc0b892a1c80412895dd3a3b8420a873bbe0396a2bc33&)
 
 Invite your server with the bot page:  
 👉 https://sonicdelivery-website.onrender.com
