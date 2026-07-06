@@ -1,6 +1,6 @@
 # SonicDelivery — Sonic‑themed Discord bot
 
-![SonicDelivery Bot](https://raw.githubusercontent.com/Casper21B-Stack/sonicdelivery-website/refs/heads/main/IMG_5019.png)
+![SonicDelivery Bot](https://raw.githubusercontent.com/Casper21B-Stack/sonicdelivery-website/refs/heads/main/IMG_8949.jpg)
 
 **A Sonic‑themed Discord bot** with food commands, a **Sonic Dash mini‑game**, rings, XP, inventory, achievements, and a ring shop.  
 Under active development with new features, updates, and seasonal events.
